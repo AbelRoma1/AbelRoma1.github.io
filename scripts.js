@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 📰 Noticias desde tu JSON local (si usás noticias propias)
   // Descomentá esto si usás noticias.json en lugar de NewsAPI
-  /*
+  
   fetch('DATA/noticias.json')
     .then(res => res.json())
     .then(noticias => {
@@ -63,5 +63,5 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     })
     .catch(err => console.error('Error al cargar noticias locales:', err));
-  */
+  
 });
