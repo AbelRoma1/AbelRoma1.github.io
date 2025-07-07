@@ -68,5 +68,11 @@ noticias.forEach(n => {
   noticia.innerHTML = `<span>${n.titulo}</span>`;
   contenedor.appendChild(noticia);
 });
+const noticia = document.createElement('a');
+noticia.className = 'noticia';
+noticia.href = n.link; // Esto hace que el recuadro sea clicable
+noticia.style.backgroundImage = `url('${n.imagen}')`;
+noticia.innerHTML = `<span>${n.titulo}</span>`;
+contenedor.appendChild(noticia);
 
 
