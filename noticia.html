@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noticia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <h1>CRONISTAS DEL MUNDO</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="noticia-detalle" id="detalle">
+      <h2 id="titulo-noticia">Cargando...</h2>
+      <img id="imagen-noticia" src="" alt="Imagen de la noticia" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px;" />
+      <p id="contenido-noticia" style="margin-top:1rem;"></p>
+    </section>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    fetch('DATA/noticias.json')
+      .then(res => res.json())
+      .then(noticias => {
+        const noticia = noticias.find(n => n.id === id);
+        if (noticia) {
+          document.getElementById("titulo-noticia").textContent = noticia.titulo;
+          document.getElementById("imagen-noticia").src = noticia.imagen;
+          document.getElementById("contenido-noticia").textContent = noticia.contenido;
+        } else {
+          document.getElementById("detalle").innerHTML = "<p>Noticia no encontrada.</p>";
+        }
+      });
+  </script>
+</body>
+</html>
