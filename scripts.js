@@ -47,3 +47,17 @@ document.addEventListener('DOMContentLoaded', () => {
       climaDiv.textContent = "Error al obtener el clima.";
     });
 });
+fetch('https://newsapi.org/v2/top-headlines?country=ar&apiKey=TU_API_KEY')
+  .then(res => res.json())
+  .then(data => {
+    const contenedor = document.querySelector('.noticias-grid');
+    data.articles.forEach(n => {
+      const noticia = document.createElement('a');
+      noticia.className = 'noticia';
+      noticia.href = n.url;
+      noticia.style.backgroundImage = `url('${n.urlToImage || "../MEDIA/default.jpg"}')`;
+      noticia.innerHTML = `<span>${n.title}</span>`;
+      contenedor.appendChild(noticia);
+    });
+  });
+
