@@ -17,4 +17,23 @@
     "imagen": "MEDIA/tecno1.jpg",
     "link": "#"
   }
+  [
+  {
+    "id": "esencia1",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "esencia",
+    "imagen": "MEDIA/esencia1.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=esencia1"
+  },
+  {
+    "id": "tecno1",
+    "titulo": "Nuevas tecnologías que cambiarán el mundo",
+    "categoria": "tecno",
+    "imagen": "MEDIA/tecno1.jpg",
+    "contenido": "Texto completo de la noticia sobre tecnología...",
+    "link": "noticia.html?id=tecno1"
+  }
+]
+
 ]
