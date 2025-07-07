@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "esencia",
+    "imagen": "MEDIA/esencia1.jpg",
+    "link": "#"
+  },
+  {
+    "titulo": "Tendencias en redes sociales 2025",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia1.jpg",
+    "link": "#"
+  },
+  {
+    "titulo": "Nuevas tecnologías que cambiarán el mundo",
+    "categoria": "tecno",
+    "imagen": "MEDIA/tecno1.jpg",
+    "link": "#"
+  }
+]
