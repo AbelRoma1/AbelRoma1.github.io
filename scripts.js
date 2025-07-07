@@ -60,4 +60,13 @@ fetch('https://newsapi.org/v2/top-headlines?country=ar&apiKey=TU_API_KEY')
       contenedor.appendChild(noticia);
     });
   });
+noticias.forEach(n => {
+  const noticia = document.createElement('a');
+  noticia.className = 'noticia';
+  noticia.href = n.link;
+  noticia.style.backgroundImage = `url('${n.imagen}')`;
+  noticia.innerHTML = `<span>${n.titulo}</span>`;
+  contenedor.appendChild(noticia);
+});
+
 
