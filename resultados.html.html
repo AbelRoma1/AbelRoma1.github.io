@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resultados de búsqueda</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <h1>CRONISTAS DEL MUNDO</h1>
+      <form class="search-box" action="resultados.html" method="get">
+        <input type="text" name="query" placeholder="Buscar noticias..." required />
+        <button type="submit">🔍</button>
+      </form>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tendencias.html">Tendencias</a></li>
+        <li><a href="actualidad.html">Actualidad</a></li>
+        <li><a href="ocio.html">Ocio</a></li>
+        <li><a href="mundo.html">Mundo</a></li>
+        <li><a href="sustentabilidad.html">Sustentabilidad</a></li>
+        <li><a href="tecno.html">Tecno</a></li>
+        <li><a href="salud.html">Salud</a></li>
+        <li><a href="esencia.html">Esencia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="categoria">
+      <h2 id="titulo-busqueda">Resultados de búsqueda</h2>
+      <div class="noticias-grid" id="resultados"></div>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const params = new URLSearchParams(window.location.search);
+      const query = params.get("query")?.toLowerCase() || "";
+
+      const noticias = [
+        { titulo: "La esencia de la cultura urbana", categoria: "esencia", imagen: "../MEDIA/esencia1.jpg" },
+        { titulo: "Nuevas tendencias en redes sociales", categoria: "tendencias", imagen: "../MEDIA/tendencia1.jpg" },
+        { titulo: "Avances tecnológicos del año", categoria: "tecno", imagen: "../MEDIA/tecno1.jpg" },
+        { titulo: "Salud mental en tiempos modernos", categoria: "salud", imagen: "../MEDIA/salud1.jpg" },
+        // Agregá más noticias acá
+      ];
+
+      const contenedor = document.getElementById("resultados");
+      const resultados = noticias.filter(n => 
+        n.titulo.toLowerCase().includes(query) || 
+        n.categoria.toLowerCase().includes(query)
+      );
+
+      if (resultados.length === 0) {
+        contenedor.innerHTML = `<p>No se encontraron resultados para: <strong>${query}</strong></p>`;
+      } else {
+        resultados.forEach(noticia => {
+          const a = document.createElement("a");
+          a.className = "noticia";
+          a.href = "#";
+          a.style.backgroundImage = `url('${noticia.imagen}')`;
+          a.innerHTML = `<span>${noticia.titulo}</span>`;
+          contenedor.appendChild(a);
+        });
+      }
+    });
+  </script>
+</body>
+</html>

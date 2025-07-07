@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CRONISTAS DEL MUNDO</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <h1>CRONISTAS DEL MUNDO</h1>
+    <!-- Dentro de <div class="topbar"> -->
+<form class="search-box" action="resultados.html" method="get">
+  <input type="text" name="query" placeholder="Buscar noticias..." required />
+  <button type="submit">🔍</button>
+</form>
+
+
+
+  </div>
+ <nav>
+  <ul class="menu">
+    <li><a href="#">Inicio</a></li>
+    <li class="secciones">
+      <li><a href="tendencias.html">Tendencias</a></li>
+
+      <ul class="submenu" id="submenu-secciones">
+        <li><a href="#">Modos de espectaculo</a></li>
+        <li><a href="#">--------------------</a></li>
+        <li><a href="#">--------------------</a></li>
+      </ul>
+    </li>
+    <li><a href="actualidad.html">Actualidad</a></li>
+    <li><a href="ocio.html">Ocio</a></li>
+    <li><a href="mundo.html">Mundo</a></li>
+    <li><a href="sustentabilidad.html">Sustentabilidad</a></li>
+    <li><a href="tecno.html">Tecno</a></li>
+    <li><a href="salud.html">Salud</a></li>
+     <li><a href="esencia.html">Esencia</a></li>
+  </ul>
+</nav>
+</header>
+
+<div class="news-ticker">
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    🔔 Titular de noticia 1 • 🔔 Titular de noticia 2 • 🔔 Titular de noticia 3
+  </marquee>
+</div>
+
+<main>
+  <!-- Ejemplo de contenido -->
+  <section class="noticia-principal" id="noticia-principal">
+  <h2>Noticia Principal</h2>
+  <a href="#noticia-destacada" class="noticia-grande" style="background-image: url('../MEDIA/images.jpg');">
+    <span class="titulo-en-imagen">Última noticia destacada del día</span>
+  </a>
+</section>
+
+  <section class="ultimas">
+    <h2>Últimas Noticias</h2>
+   <div class="noticias-grid">
+  <a class="noticia" href="#noticia1" style="background-image: url('../MEDIA/images.jpg');">
+    <span>Noticia 1</span>
+  </a>
+  <a class="noticia" href="#noticia2" style="background-image: url('../MEDIA/images.jpg');">
+    <span>Noticia 2</span>
+  </a>
+  <a class="noticia" href="#noticia3" style="background-image: url('../MEDIA/images.jpg');">
+    <span>Noticia 3</span>
+  </a>
+</div>
+
+  </section>
+
+  <section class="videos">
+    <h2>Videos Recomendados</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+  </section>
+</main>
+
+<!-- Panel fijo del clima -->
+<div class="clima-box" id="clima">
+  Cargando clima...
+</div>
+
+<script src="/JAVA/script.js"></script>
+</body>
+</html>
