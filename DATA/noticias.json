@@ -17,7 +17,7 @@
     "imagen": "MEDIA/tecno1.jpg",
     "link": "#"
   }
-  [
+  
   {
     "id": "esencia1",
     "titulo": "La esencia de la cultura urbana",
@@ -34,6 +34,14 @@
     "contenido": "Texto completo de la noticia sobre tecnología...",
     "link": "noticia.html?id=tecno1"
   }
-]
+    
+{
+  "id": "viral1",
+  "titulo": "¿Qué es viral esta semana?",
+  "imagen": "MEDIA/viral1.jpg",
+  "contenido": "Texto completo de la noticia viral...",
+  "link": "noticia.html?id=viral1"
+}
+
 
 ]
