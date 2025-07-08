@@ -23,6 +23,7 @@
     "contenido": "Texto completo de la noticia sobre cultura urbana...",
     "link": "noticia.html?id=inicio3"
   },
+   
     {
     "id": "inicio4",
     "titulo": "La esencia de la cultura urbana",
@@ -31,6 +32,180 @@
     "contenido": "Texto completo de la noticia sobre cultura urbana...",
     "link": "noticia.html?id=inicio4"
   },
+    {
+    "id": "tendencia1",
+    "titulo": "Influencers que marcan agenda",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia2.jpg",
+    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
+    "link": "noticia.html?id=tendencia1"
+  },
+  
+  {
+    "id": "tendencia2",
+    "titulo": "Influencers que marcan agenda",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia2.jpg",
+    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
+    "link": "noticia.html?id=tendencia2"
+  },
+  {
+    "id": "tendencia3",
+    "titulo": "Lo más visto en redes",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia3.jpg",
+    "contenido": "Texto completo de la noticia sobre lo más visto en redes sociales...",
+    "link": "noticia.html?id=tendencia3"
+  },
+      {
+    "id": "actualidad1",
+    "titulo": "Influencers que marcan agenda",
+    "categoria": "actualidad",
+    "imagen": "MEDIA/actualidad1.jpg",
+    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
+    "link": "noticia.html?id=actualidad1"
+  },
+  
+  {
+    "id": "actualidad2",
+    "titulo": "Influencers que marcan agenda",
+    "categoria": "actualidad",
+    "imagen": "MEDIA/actualidad2.jpg",
+    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
+    "link": "noticia.html?id=actualidad2"
+  },
+  {
+    "id": "actualidad3",
+    "titulo": "Lo más visto en redes",
+    "categoria": "actualidad",
+    "imagen": "MEDIA/actualidad3.jpg",
+    "contenido": "Texto completo de la noticia sobre lo más visto en redes sociales...",
+    "link": "noticia.html?id=actualidad3"
+  },
+   {
+  "id": "ocio1",
+  "titulo": "Planes para disfrutar el fin de semana",
+  "categoria": "ocio",
+  "imagen": "MEDIA/ocio1.jpg",
+  "contenido": "Texto completo de la noticia sobre actividades recreativas...",
+  "link": "noticia.html?id=ocio1"
+},
+{
+  "id": "ocio2",
+  "titulo": "Cine, teatro y música: lo mejor de la cartelera",
+  "categoria": "ocio",
+  "imagen": "MEDIA/ocio2.jpg",
+  "contenido": "Texto completo de la noticia sobre espectáculos culturales...",
+  "link": "noticia.html?id=ocio2"
+},
+{
+  "id": "ocio3",
+  "titulo": "Los eventos gratuitos que no te podés perder",
+  "categoria": "ocio",
+  "imagen": "MEDIA/ocio3.jpg",
+  "contenido": "Texto completo de la noticia sobre eventos accesibles...",
+  "link": "noticia.html?id=ocio3"
+},
+   {
+  "id": "mundo1",
+  "titulo": "Conflictos internacionales en foco",
+  "categoria": "mundo",
+  "imagen": "MEDIA/mundo1.jpg",
+  "contenido": "Texto completo de la noticia sobre política internacional...",
+  "link": "noticia.html?id=mundo1"
+},
+{
+  "id": "mundo2",
+  "titulo": "Elecciones clave en el escenario global",
+  "categoria": "mundo",
+  "imagen": "MEDIA/mundo2.jpg",
+  "contenido": "Texto completo de la noticia sobre procesos electorales en el mundo...",
+  "link": "noticia.html?id=mundo2"
+},
+{
+  "id": "mundo3",
+  "titulo": "Crisis humanitarias que requieren atención",
+  "categoria": "mundo",
+  "imagen": "MEDIA/mundo3.jpg",
+  "contenido": "Texto completo de la noticia sobre situaciones críticas globales...",
+  "link": "noticia.html?id=mundo3"
+},
+   {
+  "id": "sustentabilidad1",
+  "titulo": "Iniciativas verdes que inspiran",
+  "categoria": "sustentabilidad",
+  "imagen": "MEDIA/sustentabilidad1.jpg",
+  "contenido": "Texto completo de la noticia sobre proyectos ecológicos...",
+  "link": "noticia.html?id=sustentabilidad1"
+},
+{
+  "id": "sustentabilidad2",
+  "titulo": "Ciudades que apuestan por el futuro",
+  "categoria": "sustentabilidad",
+  "imagen": "MEDIA/sustentabilidad2.jpg",
+  "contenido": "Texto completo de la noticia sobre urbanismo sostenible...",
+  "link": "noticia.html?id=sustentabilidad2"
+},
+{
+  "id": "sustentabilidad3",
+  "titulo": "Tecnología al servicio del planeta",
+  "categoria": "sustentabilidad",
+  "imagen": "MEDIA/sustentabilidad3.jpg",
+  "contenido": "Texto completo de la noticia sobre innovación ecológica...",
+  "link": "noticia.html?id=sustentabilidad3"
+},
+   {
+  "id": "tecno1",
+  "titulo": "Nuevas tecnologías que cambiarán el mundo",
+  "categoria": "tecno",
+  "imagen": "MEDIA/tecno1.jpg",
+  "contenido": "Texto completo de la noticia sobre tecnología...",
+  "link": "noticia.html?id=tecno1"
+},
+{
+  "id": "tecno2",
+  "titulo": "Nuevas tecnologías que cambiarán el mundo",
+  "categoria": "tecno",
+  "imagen": "MEDIA/tecno2.jpg",
+  "contenido": "Texto completo de la noticia sobre tecnología...",
+  "link": "noticia.html?id=tecno2"
+},
+{
+  "id": "tecno3",
+  "titulo": "Nuevas tecnologías que cambiarán el mundo",
+  "categoria": "tecno",
+  "imagen": "MEDIA/tecno3.jpg",
+  "contenido": "Texto completo de la noticia sobre tecnología...",
+  "link": "noticia.html?id=tecno3"
+},
+   {
+  "id": "salud1",
+  "titulo": "Consejos para una vida saludable",
+  "categoria": "salud",
+  "imagen": "MEDIA/salud1.jpg",
+  "contenido": "Texto completo de la noticia sobre bienestar físico y mental...",
+  "link": "noticia.html?id=salud1"
+},
+{
+  "id": "salud2",
+  "titulo": "Avances médicos que salvan vidas",
+  "categoria": "salud",
+  "imagen": "MEDIA/salud2.jpg",
+  "contenido": "Texto completo de la noticia sobre innovación en salud...",
+  "link": "noticia.html?id=salud2"
+},
+{
+  "id": "salud3",
+  "titulo": "Cómo cuidar tu salud mental en tiempos difíciles",
+  "categoria": "salud",
+  "imagen": "MEDIA/salud3.jpg",
+  "contenido": "Texto completo de la noticia sobre salud emocional...",
+  "link": "noticia.html?id=salud3"
+},
+   
+
+
+  
   {
     "id": "esencia1",
     "titulo": "La esencia de la cultura urbana",
@@ -55,77 +230,54 @@
     "contenido": "Texto completo de la noticia sobre cultura urbana...",
     "link": "noticia.html?id=esencia3"
   },
-  {
-    "id": "tecno1",
-    "titulo": "Nuevas tecnologías que cambiarán el mundo",
-    "categoria": "tecno",
-    "imagen": "MEDIA/tecno1.jpg",
-    "contenido": "Texto completo de la noticia sobre tecnología...",
-    "link": "noticia.html?id=tecno1"
-  },
    {
-    "id": "tecno2",
-    "titulo": "Nuevas tecnologías que cambiarán el mundo",
-    "categoria": "tecno",
-    "imagen": "MEDIA/tecno2.jpg",
-    "contenido": "Texto completo de la noticia sobre tecnología...",
-    "link": "noticia.html?id=tecno2"
-  },
-   {
-    "id": "tecno3",
-    "titulo": "Nuevas tecnologías que cambiarán el mundo",
-    "categoria": "tecno",
-    "imagen": "MEDIA/tecno3.jpg",
-    "contenido": "Texto completo de la noticia sobre tecnología...",
-    "link": "noticia.html?id=tecno3"
-  },
-  {
-    "id": "viral1",
-    "titulo": "¿Qué es viral esta semana?",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/viral1.jpg",
-    "contenido": "Texto completo de la noticia viral...",
-    "link": "noticia.html?id=viral1"
-  },
-   {
-    "id": "viral2",
-    "titulo": "¿Qué es viral esta semana?",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/viral2.jpg",
-    "contenido": "Texto completo de la noticia viral...",
-    "link": "noticia.html?id=viral2"
-  },
-   {
-    "id": "viral3",
-    "titulo": "¿Qué es viral esta semana?",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/viral3.jpg",
-    "contenido": "Texto completo de la noticia viral...",
-    "link": "noticia.html?id=viral3"
-  },
-   {
-    "id": "tendencia1",
-    "titulo": "Influencers que marcan agenda",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/tendencia2.jpg",
-    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
-    "link": "noticia.html?id=tendencia2"
-  },
+  "id": "economiaynegocios1",
+  "titulo": "Claves para entender la economía actual",
+  "categoria": "economiaynegocios",
+  "imagen": "MEDIA/economia1.jpg",
+  "contenido": "Texto completo de la noticia sobre economía nacional e internacional...",
+  "link": "noticia.html?id=economiaynegocios1"
+},
+{
+  "id": "economiaynegocios2",
+  "titulo": "Negocios que están marcando tendencia",
+  "categoria": "economiaynegocios",
+  "imagen": "MEDIA/economia2.jpg",
+  "contenido": "Texto completo de la noticia sobre emprendimientos y startups...",
+  "link": "noticia.html?id=economiaynegocios2"
+},
+{
+  "id": "economiaynegocios3",
+  "titulo": "Inversiones inteligentes en tiempos de incertidumbre",
+  "categoria": "economiaynegocios",
+  "imagen": "MEDIA/economia3.jpg",
+  "contenido": "Texto completo de la noticia sobre finanzas personales...",
+  "link": "noticia.html?id=economiaynegocios3"
+},
   
-  {
-    "id": "tendencia2",
-    "titulo": "Influencers que marcan agenda",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/tendencia2.jpg",
-    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
-    "link": "noticia.html?id=tendencia2"
-  },
-  {
-    "id": "tendencia3",
-    "titulo": "Lo más visto en redes",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/tendencia3.jpg",
-    "contenido": "Texto completo de la noticia sobre lo más visto en redes sociales...",
-    "link": "noticia.html?id=tendencia3"
-  }
+ {
+  "id": "mundomascotero1",
+  "titulo": "Historias que conmueven: mascotas rescatadas",
+  "categoria": "mundomascotero",
+  "imagen": "MEDIA/mascotas1.jpg",
+  "contenido": "Texto completo de la noticia sobre adopciones y rescates...",
+  "link": "noticia.html?id=mundomascotero1"
+},
+{
+  "id": "mundomascotero2",
+  "titulo": "Consejos para cuidar a tu mejor amigo",
+  "categoria": "mundomascotero",
+  "imagen": "MEDIA/mascotas2.jpg",
+  "contenido": "Texto completo de la noticia sobre salud y bienestar animal...",
+  "link": "noticia.html?id=mundomascotero2"
+},
+{
+  "id": "mundomascotero3",
+  "titulo": "Tendencias en el mundo pet-friendly",
+  "categoria": "mundomascotero",
+  "imagen": "MEDIA/mascotas3.jpg",
+  "contenido": "Texto completo de la noticia sobre espacios y productos para mascotas...",
+  "link": "noticia.html?id=mundomascotero3"
+}
+  
 ]
