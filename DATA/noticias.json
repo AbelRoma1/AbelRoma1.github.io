@@ -1,24 +1,5 @@
 [
   {
-    "titulo": "La esencia de la cultura urbana",
-    "categoria": "esencia",
-    "imagen": "MEDIA/esencia1.jpg",
-    "link": "#"
-  },
-  {
-    "titulo": "Tendencias en redes sociales 2025",
-    "categoria": "tendencias",
-    "imagen": "MEDIA/tendencia1.jpg",
-    "link": "#"
-  },
-  {
-    "titulo": "Nuevas tecnologías que cambiarán el mundo",
-    "categoria": "tecno",
-    "imagen": "MEDIA/tecno1.jpg",
-    "link": "#"
-  }
-  
-  {
     "id": "esencia1",
     "titulo": "La esencia de la cultura urbana",
     "categoria": "esencia",
@@ -33,15 +14,38 @@
     "imagen": "MEDIA/tecno1.jpg",
     "contenido": "Texto completo de la noticia sobre tecnología...",
     "link": "noticia.html?id=tecno1"
+  },
+  {
+    "id": "viral1",
+    "titulo": "¿Qué es viral esta semana?",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/viral1.jpg",
+    "contenido": "Texto completo de la noticia viral...",
+    "link": "noticia.html?id=viral1"
+  },
+   {
+    "id": "tendencia1",
+    "titulo": "Influencers que marcan agenda",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia2.jpg",
+    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
+    "link": "noticia.html?id=tendencia2"
+  },
+  
+  {
+    "id": "tendencia2",
+    "titulo": "Influencers que marcan agenda",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia2.jpg",
+    "contenido": "Texto completo de la noticia sobre influencers que marcan agenda...",
+    "link": "noticia.html?id=tendencia2"
+  },
+  {
+    "id": "tendencia3",
+    "titulo": "Lo más visto en redes",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/tendencia3.jpg",
+    "contenido": "Texto completo de la noticia sobre lo más visto en redes sociales...",
+    "link": "noticia.html?id=tendencia3"
   }
-    
-{
-  "id": "viral1",
-  "titulo": "¿Qué es viral esta semana?",
-  "imagen": "MEDIA/viral1.jpg",
-  "contenido": "Texto completo de la noticia viral...",
-  "link": "noticia.html?id=viral1"
-}
-
-
 ]
