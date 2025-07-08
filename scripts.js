@@ -82,3 +82,22 @@ fetch('DATA/noticias-index.json')
       contenedor.appendChild(div);
     });
   });
+// Mostrar noticia completa
+const params = new URLSearchParams(window.location.search);
+const id = params.get('id');
+
+if (id) {
+  fetch(`DATA/noticias/${id}.json`)
+    .then(res => res.json())
+    .then(noticia => {
+      const contenedor = document.getElementById('noticia');
+      contenedor.innerHTML = `
+        <h1>${noticia.titulo}</h1>
+        <img src="${noticia.imagen}" alt="${noticia.titulo}" width="600">
+        <p>${noticia.texto}</p>
+      `;
+    })
+    .catch(() => {
+      document.getElementById('noticia').innerHTML = `<p>Noticia no encontrada.</p>`;
+    });
+}
