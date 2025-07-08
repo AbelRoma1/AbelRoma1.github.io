@@ -1,4 +1,36 @@
 [
+   {
+    "id": "inicio1",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "inicio",
+    "imagen": "MEDIA/inicio1.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=inicio1"
+  },
+   {
+    "id": "inicio2",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "inicio",
+    "imagen": "MEDIA/inicio2.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=inicio2"
+  },
+   {
+    "id": "inicio3",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "inicio",
+    "imagen": "MEDIA/inicio3.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=inicio3"
+  },
+    {
+    "id": "inicio4",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "inicio",
+    "imagen": "MEDIA/inicio4.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=inicio4"
+  },
   {
     "id": "esencia1",
     "titulo": "La esencia de la cultura urbana",
