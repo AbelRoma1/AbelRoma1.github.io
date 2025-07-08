@@ -7,6 +7,22 @@
     "contenido": "Texto completo de la noticia sobre cultura urbana...",
     "link": "noticia.html?id=esencia1"
   },
+    {
+    "id": "esencia2",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "esencia",
+    "imagen": "MEDIA/esencia2.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=esencia2"
+  },
+    {
+    "id": "esencia3",
+    "titulo": "La esencia de la cultura urbana",
+    "categoria": "esencia",
+    "imagen": "MEDIA/esencia3.jpg",
+    "contenido": "Texto completo de la noticia sobre cultura urbana...",
+    "link": "noticia.html?id=esencia3"
+  },
   {
     "id": "tecno1",
     "titulo": "Nuevas tecnologías que cambiarán el mundo",
@@ -15,6 +31,22 @@
     "contenido": "Texto completo de la noticia sobre tecnología...",
     "link": "noticia.html?id=tecno1"
   },
+   {
+    "id": "tecno2",
+    "titulo": "Nuevas tecnologías que cambiarán el mundo",
+    "categoria": "tecno",
+    "imagen": "MEDIA/tecno2.jpg",
+    "contenido": "Texto completo de la noticia sobre tecnología...",
+    "link": "noticia.html?id=tecno2"
+  },
+   {
+    "id": "tecno3",
+    "titulo": "Nuevas tecnologías que cambiarán el mundo",
+    "categoria": "tecno",
+    "imagen": "MEDIA/tecno3.jpg",
+    "contenido": "Texto completo de la noticia sobre tecnología...",
+    "link": "noticia.html?id=tecno3"
+  },
   {
     "id": "viral1",
     "titulo": "¿Qué es viral esta semana?",
@@ -22,6 +54,22 @@
     "imagen": "MEDIA/viral1.jpg",
     "contenido": "Texto completo de la noticia viral...",
     "link": "noticia.html?id=viral1"
+  },
+   {
+    "id": "viral2",
+    "titulo": "¿Qué es viral esta semana?",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/viral2.jpg",
+    "contenido": "Texto completo de la noticia viral...",
+    "link": "noticia.html?id=viral2"
+  },
+   {
+    "id": "viral3",
+    "titulo": "¿Qué es viral esta semana?",
+    "categoria": "tendencias",
+    "imagen": "MEDIA/viral3.jpg",
+    "contenido": "Texto completo de la noticia viral...",
+    "link": "noticia.html?id=viral3"
   },
    {
     "id": "tendencia1",
