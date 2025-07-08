@@ -65,3 +65,20 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(err => console.error('Error al cargar noticias locales:', err));
   
 });
+// Mostrar resumen de noticias
+fetch('DATA/noticias-index.json')
+  .then(res => res.json())
+  .then(data => {
+    const contenedor = document.getElementById('noticias');
+    if (!contenedor) return;
+    data.forEach(noticia => {
+      const div = document.createElement('div');
+      div.innerHTML = `
+        <a href="noticia.html?id=${noticia.id}">
+          <h2>${noticia.titulo}</h2>
+          <img src="${noticia.imagen}" alt="${noticia.titulo}" width="300">
+        </a>
+      `;
+      contenedor.appendChild(div);
+    });
+  });
