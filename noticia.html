@@ -27,17 +27,16 @@
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
 
-    fetch('DATA/noticias.json')
-      .then(res => res.json())
-      .then(noticias => {
-        const noticia = noticias.find(n => n.id === id);
-        if (noticia) {
-          document.getElementById("titulo-noticia").textContent = noticia.titulo;
-          document.getElementById("imagen-noticia").src = noticia.imagen;
-          document.getElementById("contenido-noticia").textContent = noticia.contenido;
-        } else {
-          document.getElementById("detalle").innerHTML = "<p>Noticia no encontrada.</p>";
-        }
+    fetch(`DATA/noticias/${id}.json`)
+  .then(res => res.json())
+  .then(noticia => {
+    document.getElementById("titulo-noticia").textContent = noticia.titulo;
+    document.getElementById("imagen-noticia").src = noticia.imagen;
+    document.getElementById("contenido-noticia").textContent = noticia.contenido;
+  })
+  .catch(() => {
+    document.getElementById("detalle").innerHTML = "<p>Noticia no encontrada.</p>";
+  });
       });
   </script>
 </body>
