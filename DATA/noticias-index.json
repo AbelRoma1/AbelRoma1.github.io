@@ -1,0 +1,12 @@
+[
+  {
+    "id": "estambul",
+    "titulo": "Nueva crónica desde Estambul",
+    "imagen": "imagenes/estambul.jpg"
+  },
+  {
+    "id": "altiplano",
+    "titulo": "Historias del altiplano",
+    "imagen": "imagenes/altiplano.jpg"
+  }
+]
